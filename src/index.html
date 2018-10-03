@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>SeccionComentarios</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body>
+  <input type="text" placeholder="Ingresa un comentario" id="comentarios">
+  <button type="button" onclick="inputComment()">Enviar comentario</button>
+  <div>
+    <h3>Comentarios</h3>
+    <div id="drawComment"></div>
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase.js"></script>
+  <script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBlZipt8OW7Gx_qHW0dd8zZhu-1aVe65yI",
+    authDomain: "desafio1seccioncomentariossv.firebaseapp.com",
+    databaseURL: "https://desafio1seccioncomentariossv.firebaseio.com",
+    projectId: "desafio1seccioncomentariossv",
+    storageBucket: "desafio1seccioncomentariossv.appspot.com",
+    messagingSenderId: "561880024456"
+  };
+  firebase.initializeApp(config);
+  </script>
+  <script src="./js/main.js"></script>
+</body>
+</html>
