@@ -16,8 +16,8 @@ function inputComment() {
 // Buscar mensajes desde data
 firebase.database().ref('seccionComentarios').on('child_added', (newMessage)=> {  
   newMessage.val().text; 
-  drawComment.innerHTML = `<div>
-  ${newMessage.val().text}<i class="fas fa-trash" data-id="${newMessage.key}" onclick="deleteComment(event)"></i>Eliminar</div>`+ drawComment.innerHTML;
+  drawComment.innerHTML = `<div class="eliminar">
+  ${newMessage.val().text}<i class="fas fa-trash" data-id="${newMessage.key}" onclick="deleteComment(event)">Eliminar</i></div>`+ drawComment.innerHTML;
 });
 
 //preguntar si se quiere eliminar publicacion

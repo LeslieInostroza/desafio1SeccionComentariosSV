@@ -1,0 +1,45 @@
+body{
+  background-image: url(../assets/img/winter-landscape-2571788_1920.jpg);
+}
+input{
+  /* height: 95%; */
+  height: 35vh;
+  border-radius: 7px;
+  border: none;
+  border: solid;
+  background-color:rgb(242, 208, 229, 0.5);
+  text-align: center;
+  width: 50%;
+}
+
+.inputText{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.btnComentarios{
+  margin-bottom: 10px;
+  text-align: center;
+}
+button{
+  height: 8vh;
+  border-radius: 7px;
+  border:none;
+  width: 40%;
+}
+h3{
+  text-align: center;
+}
+#drawComment{
+  border: solid;
+  border-bottom: black;
+}
+.fa-trash{
+ float: right;
+ color: red;
+}
+.eliminar{
+  border-bottom: solid;
+  margin-top: 5px;
+  background-color:rgb(242, 208, 229, 0.5);
+}
