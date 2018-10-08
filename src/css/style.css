@@ -1,6 +1,11 @@
 body{
   background-image: url(../assets/img/winter-landscape-2571788_1920.jpg);
 }
+h1{
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 input{
   /* height: 95%; */
   height: 35vh;
