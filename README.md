@@ -12,5 +12,5 @@ A raiz del proceso de postulacion a la empresa Silicon Valley, desarrolle el des
 
 Para llevar a cabo este desafio, la interfaz web, se ha desarrollado con JavaScript Vanilla y Firebase, este ultimo, para guardar los comentarios en su base de datos RealTime.
 
- Puede ver aqui [Link SeccionComentarios](https://leslieinostroza.github.io/desafio1SeccionComentariosSV/ "target="_blank) , el link del deploy.
+ Puede ver aqui [Link SeccionComentarios](https://leslieinostroza.github.io/desafio1SeccionComentariosSV/target="_blank") , el link del deploy.
 
