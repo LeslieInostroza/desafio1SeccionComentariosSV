@@ -1,6 +1,6 @@
 # Postulación a empresa de Silicon Valley
 
-##Desafío 1 Sección de Comentarios
+## Desafío 1 Sección de Comentarios
 
 A raíz del proceso de postulacion a la empresa Silicon Valley, desarrolle el desafío numero 1, "Sección de Comentarios", donde solicitaban crear una interfaz web en donde se mostraran las siguientes historias de usuario:
 
